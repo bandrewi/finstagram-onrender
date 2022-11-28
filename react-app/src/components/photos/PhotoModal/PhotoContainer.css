@@ -1,0 +1,42 @@
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-container{
+  width: 60%;
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 400px;
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.photo {
+  width:400px;
+  height: 400px;
+  object-fit: scale-down;
+  margin: 10px;
+
+}
+
+.caption {
+  text-align: center;
+}
+.caption-like{
+  display: flex;
+}
+
+#comments-form{
+  width: 50%;
+  color: blue;
+  margin-top: 0;
+}
+
+.p-user {
+  text-decoration: none;
+  color: #070707;
+}

@@ -1,0 +1,67 @@
+.modal-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: none;
+    height: 600px;
+}
+
+.button-menu-container {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid rgba(0, 0, 0, .3); */
+    height: 500px;
+    padding-top: 0;
+}
+
+.image-container {
+    width: 600px;
+    height: 600px;
+}
+
+.photo-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.comments-title {
+    text-align: center;
+}
+
+.edit-modalbutton{
+    margin-bottom: 20px;
+}
+
+#modal-button-style{
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-bottom:3px;
+}
+
+#like-dislike{
+    /* background-color: white; */
+    border: .5px none rgb(181, 177, 177);
+    border-radius: 6px;
+    font-weight: bold;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}

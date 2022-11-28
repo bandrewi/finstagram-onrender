@@ -1,0 +1,157 @@
+.error {
+  font-size: 15px;
+  color: red;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sign-up-error {
+  font-size: 12px;
+  color: red;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ls-form {
+  text-align: center;
+}
+
+/* LOGIN FORM */
+.login-input {
+  width: 258px;
+  height: 15px;
+  padding: 9px 0px 7px 8px;
+  margin-bottom: 8px;
+  background-color: #FAFAFA;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+}
+
+.login-input:focus {
+  border: 1px solid #a8a8a8;
+  outline: none;
+}
+
+.login-input::placeholder {
+  color: #8e8e8e
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 5px;
+}
+
+
+body {
+  background-color: white;
+}
+
+.title {
+  height: 50px;
+  width: 175px;
+  margin: auto;
+  left: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* .form-element {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border-radius: 3px;
+} */
+
+.form-submit {
+  width: 50%;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 268px;
+}
+
+.button-style {
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 3px 6px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.form-buttons {
+  display: flex;
+  margin-bottom: 8px;
+  flex-direction: column;
+  min-width: 300px;
+  align-items: center;
+}
+
+.disabled-button {
+  background-color: #3897f0a2;
+  border: 1px solid #3897f0a2;
+  cursor: initial;
+}
+
+#login-button {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+#divider-div {
+  margin-bottom: 20px;
+}
+
+.divider {
+  /* border-bottom: 1px solid #DBDBDB; */
+  border-bottom: 1px solid #DBDBDB;
+  width: 115px;
+  margin: 0px 10px 6px;
+}
+
+#or {
+  font-size: 13px;
+  color: #8e8e8e;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* SIGNUP FORM */
+#signup-container {
+  margin-top: 125px;
+}
+
+.sign-up-div {
+  width: 350px;
+  height: 509px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-top: 100px;
+  border: 1px solid rgba(219, 219, 219, 1);
+  border-radius: 1px;
+}
+
+.sign-up-input {
+  width: 258px;
+  height: 15px;
+  padding: 9px 0px 7px 8px;
+  margin-bottom: 8px;
+  background-color: #FAFAFA;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+}
+
+.sign-up-input:focus {
+  border: 1px solid #a8a8a8;
+  outline: none;
+}
