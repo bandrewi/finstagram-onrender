@@ -8,8 +8,7 @@ class Comment(db.Model):
         __table_args__ = {'schema': SCHEMA}
 
     id = db.Column(db.Integer, primary_key=True)
-    photo_id = db.Column(db.Integer, db.ForeignKey(
-        "photos.id"), nullable=False)
+    photo_id = db.Column(db.Integer, db.ForeignKey(add_prefix_for_prod("photos.id")), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey(add_prefix_for_prod("users.id")), nullable=False)
     body = db.Column(db.String(255))
 
