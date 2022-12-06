@@ -2,7 +2,7 @@
 
 Finstagram is a web application that allows users to connect with other users and see their photos on their photo feed. This project was inspired by Instagram.
 
-Connect and share at https://finstagramaa.herokuapp.com/
+Connect and share at https://finstagram-kkiu.onrender.com/
 
 ## Directory
 
@@ -45,7 +45,7 @@ Another challenge we had was how we would be passing data within our store to ou
 As we finish up the initial build of our web application, we do have some features that we would want to implement in future builds of our application. Those features include functionality such as a search bar to search for other users, a system of hashtags that allow posts from users all over the website to be grouped into a single category containing the hashtag, an explore page that shows users posts that they may be interested in based on their browsing of the website and their interests in the formerly mentioned hashtag system, and a recommended follows list that displays users that are followed by other users that one is already following.
 
 ## How to Build
-1. Clone the repository at https://github.com/bandrewi/finstagram
+1. Clone the repository at https://github.com/bandrewi/finstagram-onrender
 2. Install dependencies with
 ```
 pipenv install --dev -r dev-requirements.txt && pipenv install -r requirements.txt
