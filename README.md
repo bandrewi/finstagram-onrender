@@ -6,11 +6,11 @@ Connect and share at https://finstagram-kkiu.onrender.com/
 
 ## Directory
 
-[Features List](https://github.com/bandrewi/finstagram/wiki/Features-List)
+[Features List](https://github.com/bandrewi/finstagram-onrender/wiki/Features-List)
 
-[Database Schema](https://github.com/bandrewi/finstagram/wiki/Database-Schema)
+[Database Schema](https://github.com/bandrewi/finstagram-onrender/wiki/Database-Schema)
 
-[User Stories](https://github.com/bandrewi/finstagram/wiki/User-Stories)
+[User Stories](https://github.com/bandrewi/finstagram-onrender/wiki/User-Stories)
 
 
 ## Technologies Used:
